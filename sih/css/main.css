@@ -24,12 +24,19 @@ body
 
 #content
 {
+	float:left;
     padding: 20px;
+    border:0px solid red;
+    width:calc(100% - 150px);
 }
 
 #sidebar
 {
-	padding: 20px 20px 20px 0;
+	border:0px solid red;
+	float:left;
+	width:150px;
+	margin-top:-20px;
+	
 }
 
 #footer

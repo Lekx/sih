@@ -8,6 +8,7 @@
 	*{
 		box-sizing:border-box;
 	}
+
 	body{
 		margin:0;
 		padding:0;
@@ -55,30 +56,34 @@
 		padding:20px 30px;
 	}
 
-	#titulo, #subtitulo{
+	#titulo, #subtitulo,#loginfo{
 		display:table-row;
 	}
-#subtitulo{
-	font-size:.46em;
+	#subtitulo{
+		font-size:.46em;
+		text-align: justify;
+		
+	}
+	#logo{
+		display:inline-block;
+		border:0px solid red;
+		height:100%;
+		width:150px;
+		float:left;
+		background-color: white;
+		border-radius: 3px;
+	}
+	#loginfo{
+		font-size:.3em;
 	text-align: justify;
-	
-}
-#logo{
-	display:inline-block;
-	border:0px solid red;
-	height:100%;
-	width:150px;
-	float:left;
-	background-color: white;
-	border-radius: 3px;
-}
+	}
 
-#titulos{
-	margin-top: 50px;
-	border:0px solid black;
-	float:left;
-	margin-left:10px;
-}
+	#titulos{
+		margin-top: 45px;
+		border:0px solid black;
+		float:left;
+		margin-left:10px;
+	}
 .submenu{
 	
 	font-size: .8em;
@@ -112,3 +117,11 @@
 	text-decoration: none;
 	color:#E1EDE9;
 }
+
+.boton{
+	cursor: pointer;
+	width:15px;
+	height:auto;
+	margin:0 3px;
+}
+
