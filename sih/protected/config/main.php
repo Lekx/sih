@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Hospital Siloe | Pedimentos',
 	'timeZone' => 'America/Mexico_City',
 	'language' => 'es',
 	// preloading 'log' component
@@ -56,7 +56,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=sih',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'systemkorp2348',
 			'charset' => 'utf8',
 		),
 		
